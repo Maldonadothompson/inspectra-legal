@@ -1,6 +1,6 @@
 # Política de Privacidad — InspectraEdificios
 
-**Última actualización: 25 de abril de 2026**
+**Última actualización: 15 de mayo de 2026**
 
 Esta política describe cómo InspectraEdificios (en adelante "la App"), desarrollada por **Allpa Servicios Integrales Limitada** (en adelante "Allpa", "nosotros"), recolecta, usa y protege la información de quienes la utilizan.
 
@@ -70,21 +70,40 @@ Bajo la Ley N° 19.628 sobre Protección de la Vida Privada (Chile) y el Reglame
 
 Para ejercer estos derechos, contáctanos a **maldonado@allpa.cl**.
 
-## 7. Seguridad
+## 7. Cómo solicitar la eliminación de tu cuenta y datos
+
+Si quieres eliminar tu cuenta de InspectraEdificios y todos los datos asociados, puedes hacerlo de la siguiente manera:
+
+**Procedimiento**:
+1. Envía un correo a **maldonado@allpa.cl** con el asunto *"Solicitud de eliminación de cuenta - Inspectra"*.
+2. Incluye en el cuerpo del correo el email con el que te registraste en la App.
+3. Procesamos tu solicitud dentro de un plazo máximo de **30 días** y te confirmamos la eliminación por respuesta a ese mismo correo.
+
+**Datos que se eliminan**:
+- Tu perfil de usuario en Firebase Authentication (email, nombre, identificador único).
+- Tus datos en Firestore: levantamientos creados, fichas técnicas, comentarios e incidencias generadas, tokens de notificaciones push.
+- Las fotografías que subiste a Firebase Storage (de fichas e incidencias).
+
+**Datos que pueden retenerse**:
+Por motivos legales o de cumplimiento normativo aplicable a la administración de edificios podemos retener registros anonimizados (sin tu nombre, email ni identificador) durante el período que exija la ley vigente, sin posibilidad de re-asociarlos a tu identidad.
+
+**Sobre eliminación parcial**: el historial de eventos del módulo Incidencias es inmutable por diseño (cada interacción genera un evento que no se modifica, similar a un libro de bitácora). Por eso, comentarios o eventos individuales no pueden eliminarse por separado; la única vía es la eliminación total de cuenta descrita arriba.
+
+## 8. Seguridad
 
 Las comunicaciones entre la App y nuestros servidores usan cifrado HTTPS/TLS. El acceso a la base de datos está limitado por reglas de Firebase Security Rules: cada usuario solo puede leer y escribir sus propios datos.
 
 Aunque tomamos medidas razonables para proteger tu información, ningún sistema es 100% seguro. En caso de un incidente de seguridad que pueda afectarte, te notificaremos por correo electrónico.
 
-## 8. Niños
+## 9. Niños
 
 La App no está dirigida a menores de 14 años y no recolectamos conscientemente información de menores. Si crees que un menor nos ha proporcionado información personal, contáctanos para eliminarla.
 
-## 9. Cambios en esta política
+## 10. Cambios en esta política
 
 Podemos actualizar esta política. La versión vigente y su fecha de última actualización siempre están disponibles en este mismo enlace. Cambios sustanciales se comunicarán por correo electrónico a los usuarios registrados.
 
-## 10. Contacto
+## 11. Contacto
 
 ¿Preguntas sobre esta política o sobre el manejo de tus datos?
 
